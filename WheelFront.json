@@ -1,0 +1,36 @@
+{
+  "Wheel": {
+    "Radius": 0.351,
+    "Mass": 50.0,
+    "bIsTraction": true
+  },
+
+  "Steering": {
+    "bIsSteering": true,
+    "MaxSteeringAngle": 45.0
+  },
+
+  "Tire": {
+    "LongStiffnessFactor": 0.02,
+    "LongShapeFactor": 1.05,
+    "LongPeakValue": 0.99,
+    "LongCurvatureFactor": 0.0,
+    "LongTireLoad": 0.7,
+
+    "LatStiffnessFactor": 4.0,
+    "LatShapeFactor": 1.5,
+    "LatPeakValue": 1.3,
+    "LatCurvatureFactor": 1.0,
+    "LatTireLoad": 1.9
+  },
+
+  "Suspension": {
+    "Height": 0.8,
+    "MaxRaise": 0.08,
+    "MaxDrop": 0.9,
+    "SpringStiffness": 45000.0,
+    "DamperStiffness": 1500.0,
+    "ForceAppHeight": 0.1,
+    "ForceAppHeightLateral": 0.1
+  }
+}
