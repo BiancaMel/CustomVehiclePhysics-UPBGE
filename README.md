@@ -22,3 +22,5 @@ To understand the structure of vehicle objects see Example 1, see objects physic
 Main bugs:
 -Deltatime problem, the car flicks with frametime variations, I think it needs substep but, I don't know how to implement.
 -Tire friction at low velocity is not accurate.
+
+if you want to improve the project, you can.
