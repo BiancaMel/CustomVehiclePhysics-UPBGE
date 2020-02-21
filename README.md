@@ -4,9 +4,9 @@
 Warning: this physics have some bugs
 
 Example 1 countains:
--simple demo of vehicle physics.
--simple 3d model of vehicle.
--simple test map.
+simple demo of vehicle physics.
+simple 3d model of vehicle.
+simple test map.
 
 Example 2 countains:
 -Demo of vehicle physics
