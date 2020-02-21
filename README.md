@@ -1,7 +1,7 @@
 # CustomVehiclePhysics
  UPBGE Vehicle Physics
 
-Warning: this physics have some bugs
+Warning: this physics has some bugs and is not ready.
 
 Example 1 countains:
 -simple demo of vehicle physics.
