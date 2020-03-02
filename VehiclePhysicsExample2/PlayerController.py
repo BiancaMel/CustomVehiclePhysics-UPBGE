@@ -42,8 +42,13 @@ class PlayerController(bge.types.KX_PythonComponent):
     
     def update(self):
         #joystick
-        Axis = bge.logic.joysticks[0].axisValues
-        Buttons = bge.logic.joysticks[0].activeButtons
+        Axis = [0,0,0,0,0,0]
+        Buttons = []
+        try:
+                Axis = bge.logic.joysticks[0].axisValues
+                Buttons = bge.logic.joysticks[0].activeButtons
+        except:
+                pass
         #print(Axis)
         
         RightRaw = Axis[0]
